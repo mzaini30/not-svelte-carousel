@@ -10,6 +10,14 @@ Svelte Carousel / Slider
 
 This is a ground-up rewrite of the original Svelte Carousel/Slider using Svelte v3, and [Siema](https://github.com/pawelgrzybek/siema), the goal being a fully working carousel with a tiny size.
 
+## IMPORTANT
+
+Add this in `index.html`:
+
+```html
+<script src="https://rawcdn.githack.com/pawelgrzybek/siema/91bc183b0297b6d5d9d080c72491ab41ed1a0bf8/dist/siema.min.js"></script>
+```
+
 ## Usage
 
 This library is pure javascript, so can be used with any framework you like.

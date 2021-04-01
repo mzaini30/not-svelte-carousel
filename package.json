@@ -1,9 +1,9 @@
 {
-  "name": "@beyonk/svelte-carousel",
+  "name": "not-svelte-carousel",
   "svelte": "src/Carousel.svelte",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
-  "version": "2.8.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "NODE_ENV=development rollup -cw",
@@ -29,13 +29,10 @@
     "flickity",
     "siema"
   ],
-  "repository": "github:beyonk-adventures/svelte-carousel",
+  "repository": "github:mzaini30/not-svelte-carousel",
   "files": [
     "src",
     "dist/index.js",
     "dist/index.mjs"
-  ],
-  "dependencies": {
-    "siema": "^1.5.1"
-  }
+  ]
 }
