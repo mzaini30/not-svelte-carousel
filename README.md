@@ -34,7 +34,7 @@ npm run dev # http://localhost:12001
 ### To use within a Svelte application:
 
 ```bash
-npm i -D @beyonk/svelte-carousel
+npm i -D not-svelte-carousel
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ npm i -D @beyonk/svelte-carousel
 </Carousel>
 
 <script>
-	import Carousel from '@beyonk/svelte-carousel'
+	import Carousel from 'not-svelte-carousel'
 	import { ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons'
 </script>
 ```
@@ -77,7 +77,7 @@ npm i -D svelte-feather-icons
 </Carousel>
 
 <script>
-	import Carousel from './Carousel.svelte'
+	import Carousel from 'not-svelte-carousel'
 	import { ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons'
 </script>
 ```
@@ -141,7 +141,7 @@ The Carousel components emits the following events:
 </Carousel>
 
 <script>
-  import Carousel from './Carousel.svelte'
+  import Carousel from 'not-svelte-carousel'
   let carousel;
   
   function enter() {
